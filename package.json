@@ -1,6 +1,6 @@
 {
   "name": "@bygnet/types",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Byg Platform's types for posts, images, and more, for Byg devs and the community.",
   "keywords": [
     "social-network",
