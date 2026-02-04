@@ -1,7 +1,7 @@
 {
   "name": "@bygnet/types",
-  "version": "1.0.0",
-  "description": "Byg Social's types for posts, images, and more, for Byg devs and the community.",
+  "version": "1.1.0",
+  "description": "Byg Platform's types for posts, images, and more, for Byg devs and the community.",
   "keywords": [
     "social-network",
     "typescript",
@@ -20,12 +20,15 @@
   },
   "type": "module",
   "main": "src/index.ts",
+
+  "files": ["dist"],
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts"
     }
   },
+
   "scripts": {
     "build": "tsc",
     "format": "prettier --write src/"
