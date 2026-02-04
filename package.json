@@ -1,0 +1,36 @@
+{
+  "name": "@bygnet/types",
+  "version": "1.0.0",
+  "description": "Byg Social's types for posts, images, and more, for Byg devs and the community.",
+  "keywords": [
+    "social-network",
+    "typescript",
+    "types",
+    "byg"
+  ],
+  "license": "Apache-2.0",
+  "author": {
+    "name": "ash",
+    "email": "ash@a35.dev",
+    "url": "https://a35.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BygNet/Types.git"
+  },
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
+  }
+}
