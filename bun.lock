@@ -5,11 +5,16 @@
     "": {
       "name": "@bygnet/types",
       "dependencies": {
+        "@a35hie/ts-pkg": "^0.3.1",
         "prettier": "^3.8.1",
       },
     },
   },
   "packages": {
+    "@a35hie/ts-pkg": ["@a35hie/ts-pkg@0.3.1", "", { "peerDependencies": { "typescript": "^5.9.3" }, "bin": { "ts-pkg": "dist/cli.js" } }, "sha512-YQexb8HtH3HlikDBhlTabfi8t6DzbuqigdMYDw5BbiP9+p+Y5Vas7B7hFTTUccyL93okijb84mRu6vV4AyXslQ=="],
+
     "prettier": ["prettier@3.8.1", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg=="],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
   }
 }

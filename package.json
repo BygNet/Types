@@ -1,6 +1,6 @@
 {
   "name": "@bygnet/types",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Byg Platform's types for posts, images, and more, for Byg devs and the community.",
   "keywords": [
     "social-network",
@@ -20,20 +20,24 @@
   },
   "type": "module",
   "main": "src/index.ts",
-
-  "files": ["dist"],
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts"
     }
   },
-
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write src/"
+    "build:watch": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@a35hie/ts-pkg": "^0.3.1",
     "prettier": "^3.8.1"
   }
 }
