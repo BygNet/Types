@@ -2,7 +2,7 @@ import { definePackage } from '@a35hie/ts-pkg'
 
 export default definePackage({
   name: '@bygnet/types',
-  version: '1.2.1',
+  version: '1.3.0',
   description:
     "Byg Platform's types for posts, images, and more, for Byg devs and the community.",
   keywords: ['social-network', 'typescript', 'types', 'byg'],
