@@ -1,11 +1,10 @@
 import { BygSubscription } from '../unions/subscription'
 
-type BygUser = {
+export interface BygUser {
   id: number
   email: string
   username: string
-  passHash: string
-  createdAt: number
+  createdAt: string
   bio: string | null
   avatarUrl: string | null
   bannerUrl: string | null

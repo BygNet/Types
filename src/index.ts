@@ -4,7 +4,10 @@ export * from './content/comment'
 export * from './content/image'
 export * from './content/post'
 export * from './content/shop'
-export * from './content/user'
+
+// people
+export * from './people/profile'
+export * from './people/user'
 
 // unions
 export * from './unions/create'
