@@ -1,0 +1,14 @@
+import { BygSubscription } from '../unions/subscription'
+
+export type BygNotificationType = 'follow' | 'post_comment' | 'image_comment'
+
+export interface BygNotification {
+  id: string
+  type: BygNotificationType
+  actorUsername: string
+  actorAvatarUrl: string | null
+  actorSubscriptionState: BygSubscription
+  text: string
+  path: string
+  createdDate: string
+}
