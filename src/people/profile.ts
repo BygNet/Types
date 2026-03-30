@@ -1,4 +1,4 @@
-import { BygUser } from './user'
+import { BygUser } from '@/index'
 
 export interface BygProfile {
   user: BygUser

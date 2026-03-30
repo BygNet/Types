@@ -1,4 +1,4 @@
-import { BygSubscription } from '../unions/subscription'
+import { BygSubscription } from '@/index'
 
 export type BygNotificationType = 'follow' | 'post_comment' | 'image_comment'
 

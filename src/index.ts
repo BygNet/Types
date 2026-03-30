@@ -12,6 +12,7 @@ export * from './people/user'
 // unions
 export * from './unions/create'
 export * from './unions/subscription'
+export * from './unions/verification'
 
 // web
 export * from './web/page'

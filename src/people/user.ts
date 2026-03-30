@@ -1,4 +1,4 @@
-import { BygSubscription } from '../unions/subscription'
+import { BygSubscription, BygVerification } from '@/index'
 
 export interface BygUser {
   id: number
@@ -9,4 +9,5 @@ export interface BygUser {
   avatarUrl: string | null
   bannerUrl: string | null
   subscriptionState: BygSubscription
+  verification: BygVerification
 }
