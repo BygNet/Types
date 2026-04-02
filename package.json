@@ -1,7 +1,7 @@
 {
   "alert": "THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit package.ts and run 'ts-pkg' to regenerate.",
   "name": "@bygnet/types",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Byg Platform's types for posts, images, and more, for Byg devs and the community.",
   "keywords": [
     "social-network",
@@ -24,10 +24,10 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
+  "types": "dist/index.d.mts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.mts"
     }
   },
   "scripts": {
