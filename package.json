@@ -1,7 +1,7 @@
 {
   "alert": "THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit package.ts and run 'ts-pkg' to regenerate.",
   "name": "@bygnet/types",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Byg Platform's types for posts, images, and more, for Byg devs and the community.",
   "keywords": [
     "social-network",
@@ -31,14 +31,15 @@
     }
   },
   "scripts": {
-    "build": "tsc",
-    "build:watch": "tsc --watch",
-    "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc --noEmit"
   },
-  "dependencies": {
+  "devDependencies": {
     "@opk/ts-pkg": "^0.6.1",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.1",
+    "tsdown": "^0.21.7"
   }
 }
