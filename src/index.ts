@@ -6,6 +6,7 @@ export * from './content/notification'
 export * from './content/post'
 
 // people
+export * from './people/auth-user'
 export * from './people/profile'
 export * from './people/user'
 

@@ -1,7 +1,7 @@
 {
   "alert": "THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit package.ts and run 'ts-pkg' to regenerate.",
   "name": "@bygnet/types",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "description": "Byg Platform's types for posts, images, and more, for Byg devs and the community.",
   "keywords": [
     "social-network",
