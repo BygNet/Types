@@ -34,7 +34,8 @@
     "format:check": "prettier --check .",
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prePublishOnly": "bun run build"
   },
   "devDependencies": {
     "@opk/ts-pkg": "^0.6.1",
