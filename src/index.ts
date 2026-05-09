@@ -18,3 +18,4 @@ export * from './unions/verification'
 // web
 export * from './web/page'
 export * from './web/push'
+export * from './web/song-link'
