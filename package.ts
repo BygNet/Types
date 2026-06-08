@@ -3,7 +3,7 @@ import { BunPm, definePackage } from '@opk/ts-pkg'
 export default definePackage({
   pm: BunPm,
   name: '@bygnet/types',
-  version: '1.10.0',
+  version: '1.10.1',
   description:
     "Byg Platform's types for posts, images, and more, for Byg devs and the community.",
   keywords: ['social-network', 'typescript', 'types', 'byg'],
@@ -26,12 +26,13 @@ export default definePackage({
     prePublishOnly: 'bun run build',
   },
   type: 'module',
-  main: 'src/index.ts',
+  main: './dist/index.mjs',
   files: ['dist'],
-  types: 'dist/index.d.mts',
+  types: './dist/index.d.mts',
   exports: {
     '.': {
       types: './dist/index.d.mts',
+      import: './dist/index.mjs',
     },
   },
 
