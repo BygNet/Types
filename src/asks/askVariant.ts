@@ -85,3 +85,7 @@ export function getAskVariantById(id: string): BygAskVariant {
     ) ?? BygDefaultAskVariant
   )
 }
+
+export function getAskGradient(variant: BygAskVariant): string {
+  return `${variant.colors.primary}, ${variant.colors.secondary}`
+}
